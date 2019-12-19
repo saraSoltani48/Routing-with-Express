@@ -1,0 +1,102 @@
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: hsla(0, 0%, 100%, 0.98);
+  
+    display: flex;
+    justify-content: space-around;
+  }
+  body{
+    margin:0px 10%;
+    color: aquamarine;
+   
+}
+header{
+    display:flex;
+    justify-content:space-around;   
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  .list-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+.list-menu a {text-decoration:none;
+ color: #ababab;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+h1{
+    color:black;
+    font-size: 40px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.list-menu  li{
+    margin-right: 15px;
+    text-decoration:none;
+color:black;
+}
+.about-us a{
+    color:black;
+}
+.about-us a:hover{
+    color:#00b39b ;
+}
+.creer a:hover{
+    color:#00b39b ;
+}
+.car {
+    color: #ababab;
+}
+.département a:hover{color:#00b39b}
+.dropdown{list-style: none;
+         position: absolute;
+         display: none ;
+         left: 0px;
+         top:18px;
+        right:3px;
+         width: 250px;
+}
+    .dropdown li {
+        margin: 10px 0px;
+    }
+.département:hover .dropdown{
+    display: block;
+}
+.département{
+    position: relative;
+    }
+  
+  .menu-main li {
+    position: relative;
+    float: left;
+    list-style: none;
+  }
+  .menu-main a:hover{
+    color:#00b39b 
+  }
+  .menu-main a {
+    display: block;
+    color: black;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 0 0.6em;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-style: italic;
+  }
